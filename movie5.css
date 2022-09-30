@@ -1,0 +1,133 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: rgb(32, 32, 32);
+}
+h2{
+    font-family: Arial;
+}
+body{
+    background-color: #a8fff8;
+    padding-bottom: 100px;
+}
+img{
+    width: 325px;
+    border-radius: 20px;
+}
+a{
+    border-radius: 20px;
+    font-size: 35px;
+    text-decoration: bold;
+    
+}
+
+.description{
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;    
+    border-radius: 20px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.18);
+    color: rgb(32, 32, 32);
+    font-size: 30px;
+    transition: all 250ms ease;
+}
+
+.description:hover{
+    box-shadow: none;
+}
+
+.director{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.89);    
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.18);
+    color: rgb(32, 32, 32);
+    transition: all 250ms ease;
+}
+
+.director:hover{
+    box-shadow: none;
+}
+
+.actors{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.89);    
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.18);
+    color: rgb(32, 32, 32);
+    transition: all 250ms ease;
+}
+
+.actors:hover{
+    box-shadow: none;
+}
+
+h3{
+    font-size: 60px;
+}
+
+.pgrating{
+    color: rgb(32, 32, 32);
+    font-family: Arial;
+}
+
+.list{
+    font-family: Verdana;
+    font-size: 17px;
+    margin-bottom: 2px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.text{
+    font-family: Verdana;
+    font-size: 17px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.review{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.89);    
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.18);
+    color: rgb(32, 32, 32);
+    transition: all 250ms ease;
+}
+
+.review:hover{
+    box-shadow: none;
+}
+.categories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.categories:hover{
+    box-shadow: none;
+}
+
+.ryan{
+    width: 300px;
+
+}
+
+.freeguy{
+    width: 350px;
+    padding-top: 40px;
+}
+
+.freeguyposter{
+    margin-top: 50px;
+    width: 350px;
+}
